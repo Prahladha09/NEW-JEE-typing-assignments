@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.3)  8 OCT 2024 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.3)  8 OCT 2024 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1262,13 +1262,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 5.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 45.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 45.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1380,6 +1380,8 @@ LaTeX Info: Redefining \ohm on input line 45.
 Package gensymb Info: Using \textohm for \ohm on input line 45.
 Package gensymb Info: Using \textmu for \micro on input line 45.
 Package hyperref Info: Link coloring OFF on input line 45.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1434,21 +1436,14 @@ Underfull \hbox (badness 1527) in paragraph at lines 149--151
 LaTeX2e <2023-06-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 46026 strings out of 477695
- 1071065 string characters out of 5831649
+ 46034 strings out of 477695
+ 1071161 string characters out of 5831649
  1901759 words of memory out of 5000000
- 65746 multiletter control sequences out of 15000+600000
+ 65748 multiletter control sequences out of 15000+600000
  570920 words of font info for 148 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  117i,7n,121p,1172b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
